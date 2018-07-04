@@ -11,7 +11,19 @@
     color: #fff;
 }
 
-.gallery {
-    width: 60px; 
-    height: 40px;
+div.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
