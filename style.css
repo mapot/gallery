@@ -1,0 +1,17 @@
+.header {
+    background: #1e1f20;
+    padding: 15px 0;
+    position: relative;
+}
+
+.menu {
+    text-align: center;
+    margin: 70px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.gallery {
+    width: 60px; 
+    height: 40px;
+}
